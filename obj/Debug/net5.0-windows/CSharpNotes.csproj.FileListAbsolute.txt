@@ -1,0 +1,16 @@
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\bin\Debug\net5.0-windows\CSharpNotes.exe
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\bin\Debug\net5.0-windows\CSharpNotes.deps.json
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\bin\Debug\net5.0-windows\CSharpNotes.runtimeconfig.json
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\bin\Debug\net5.0-windows\CSharpNotes.runtimeconfig.dev.json
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\bin\Debug\net5.0-windows\CSharpNotes.dll
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\bin\Debug\net5.0-windows\ref\CSharpNotes.dll
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\bin\Debug\net5.0-windows\CSharpNotes.pdb
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\obj\Debug\net5.0-windows\CSharpNotes.csprojAssemblyReference.cache
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\obj\Debug\net5.0-windows\CSharpNotes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\obj\Debug\net5.0-windows\CSharpNotes.AssemblyInfoInputs.cache
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\obj\Debug\net5.0-windows\CSharpNotes.AssemblyInfo.cs
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\obj\Debug\net5.0-windows\CSharpNotes.csproj.CoreCompileInputs.cache
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\obj\Debug\net5.0-windows\CSharpNotes.dll
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\obj\Debug\net5.0-windows\ref\CSharpNotes.dll
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\obj\Debug\net5.0-windows\CSharpNotes.pdb
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\obj\Debug\net5.0-windows\CSharpNotes.genruntimeconfig.cache
