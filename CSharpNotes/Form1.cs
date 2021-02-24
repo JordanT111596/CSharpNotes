@@ -26,6 +26,9 @@ namespace CSharpNotes
             table.Columns.Add("Messages", typeof(String));
 
             dataGridView1.DataSource = table;
+
+            dataGridView1.Columns["Messages"].Visible = false;
+            dataGridView1.Columns["Title"].Width = 226;
         }
 
         private void newBtn_Click(object sender, EventArgs e)
