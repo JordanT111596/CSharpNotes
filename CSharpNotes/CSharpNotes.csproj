@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F66E6B7C-447F-4487-B183-3193BBE8CBE9}</ProjectGuid>
+    <ProjectGuid>{D69FB489-EE2C-43B8-9C86-EA15A115DE53}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>CSharpNotes</RootNamespace>
     <AssemblyName>CSharpNotes</AssemblyName>
