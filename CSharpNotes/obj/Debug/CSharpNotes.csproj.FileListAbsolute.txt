@@ -1,0 +1,10 @@
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\CSharpNotes\bin\Debug\CSharpNotes.exe.config
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\CSharpNotes\bin\Debug\CSharpNotes.exe
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\CSharpNotes\bin\Debug\CSharpNotes.pdb
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\CSharpNotes\obj\Debug\CSharpNotes.csprojAssemblyReference.cache
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\CSharpNotes\obj\Debug\CSharpNotes.Form1.resources
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\CSharpNotes\obj\Debug\CSharpNotes.Properties.Resources.resources
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\CSharpNotes\obj\Debug\CSharpNotes.csproj.GenerateResource.cache
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\CSharpNotes\obj\Debug\CSharpNotes.csproj.CoreCompileInputs.cache
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\CSharpNotes\obj\Debug\CSharpNotes.exe
+C:\Users\jorda\Sandbox\C# Practice\CSharpNotes\CSharpNotes\obj\Debug\CSharpNotes.pdb

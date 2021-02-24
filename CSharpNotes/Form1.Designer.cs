@@ -90,6 +90,7 @@ namespace CSharpNotes
             this.newBtn.TabIndex = 5;
             this.newBtn.Text = "New";
             this.newBtn.UseVisualStyleBackColor = true;
+            this.newBtn.Click += new System.EventHandler(this.newBtn_Click);
             // 
             // saveBtn
             // 
@@ -99,6 +100,7 @@ namespace CSharpNotes
             this.saveBtn.TabIndex = 6;
             this.saveBtn.Text = "Save";
             this.saveBtn.UseVisualStyleBackColor = true;
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
             // readBtn
             // 
@@ -108,6 +110,7 @@ namespace CSharpNotes
             this.readBtn.TabIndex = 7;
             this.readBtn.Text = "Read";
             this.readBtn.UseVisualStyleBackColor = true;
+            this.readBtn.Click += new System.EventHandler(this.readBtn_Click);
             // 
             // deleteBtn
             // 
@@ -117,6 +120,7 @@ namespace CSharpNotes
             this.deleteBtn.TabIndex = 8;
             this.deleteBtn.Text = "Delete";
             this.deleteBtn.UseVisualStyleBackColor = true;
+            this.deleteBtn.Click += new System.EventHandler(this.deleteBtn_Click);
             // 
             // Form1
             // 
