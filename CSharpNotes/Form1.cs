@@ -22,13 +22,13 @@ namespace CSharpNotes
         private void Form1_Load(object sender, EventArgs e)
         {
             table = new DataTable();
-            table.Columns.Add("Title", typeof(String));
-            table.Columns.Add("Messages", typeof(String));
+            table.Columns.Add("Note Title", typeof(String));
+            table.Columns.Add("Message", typeof(String));
 
             dataGridView1.DataSource = table;
 
-            dataGridView1.Columns["Messages"].Visible = false;
-            dataGridView1.Columns["Title"].Width = 226;
+            dataGridView1.Columns["Message"].Visible = false;
+            dataGridView1.Columns["Note Title"].Width = 226;
 
             label3.Font = new Font("Arial", 24, FontStyle.Bold);
         }
