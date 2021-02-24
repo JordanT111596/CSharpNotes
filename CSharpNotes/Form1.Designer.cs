@@ -38,40 +38,45 @@ namespace CSharpNotes
             this.saveBtn = new System.Windows.Forms.Button();
             this.readBtn = new System.Windows.Forms.Button();
             this.deleteBtn = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(66, 72);
+            this.label1.Location = new System.Drawing.Point(99, 111);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(27, 13);
+            this.label1.Size = new System.Drawing.Size(38, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Title";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(66, 215);
+            this.label2.Location = new System.Drawing.Point(99, 331);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 13);
+            this.label2.Size = new System.Drawing.Size(74, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Message";
             // 
             // titleText
             // 
-            this.titleText.Location = new System.Drawing.Point(158, 69);
+            this.titleText.Location = new System.Drawing.Point(237, 106);
+            this.titleText.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.titleText.Name = "titleText";
-            this.titleText.Size = new System.Drawing.Size(279, 20);
+            this.titleText.Size = new System.Drawing.Size(416, 26);
             this.titleText.TabIndex = 2;
             // 
             // msgText
             // 
-            this.msgText.Location = new System.Drawing.Point(158, 123);
+            this.msgText.Location = new System.Drawing.Point(237, 189);
+            this.msgText.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.msgText.Multiline = true;
             this.msgText.Name = "msgText";
-            this.msgText.Size = new System.Drawing.Size(279, 221);
+            this.msgText.Size = new System.Drawing.Size(416, 338);
             this.msgText.TabIndex = 3;
             // 
             // dataGridView1
@@ -81,18 +86,21 @@ namespace CSharpNotes
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(507, 69);
+            this.dataGridView1.Location = new System.Drawing.Point(760, 106);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(229, 275);
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.Size = new System.Drawing.Size(344, 423);
             this.dataGridView1.TabIndex = 4;
             // 
             // newBtn
             // 
-            this.newBtn.Location = new System.Drawing.Point(158, 378);
+            this.newBtn.Location = new System.Drawing.Point(237, 582);
+            this.newBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.newBtn.Name = "newBtn";
-            this.newBtn.Size = new System.Drawing.Size(75, 23);
+            this.newBtn.Size = new System.Drawing.Size(112, 35);
             this.newBtn.TabIndex = 5;
             this.newBtn.Text = "New";
             this.newBtn.UseVisualStyleBackColor = true;
@@ -100,9 +108,10 @@ namespace CSharpNotes
             // 
             // saveBtn
             // 
-            this.saveBtn.Location = new System.Drawing.Point(362, 378);
+            this.saveBtn.Location = new System.Drawing.Point(543, 582);
+            this.saveBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(75, 23);
+            this.saveBtn.Size = new System.Drawing.Size(112, 35);
             this.saveBtn.TabIndex = 6;
             this.saveBtn.Text = "Save";
             this.saveBtn.UseVisualStyleBackColor = true;
@@ -110,9 +119,10 @@ namespace CSharpNotes
             // 
             // readBtn
             // 
-            this.readBtn.Location = new System.Drawing.Point(507, 378);
+            this.readBtn.Location = new System.Drawing.Point(760, 582);
+            this.readBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.readBtn.Name = "readBtn";
-            this.readBtn.Size = new System.Drawing.Size(75, 23);
+            this.readBtn.Size = new System.Drawing.Size(112, 35);
             this.readBtn.TabIndex = 7;
             this.readBtn.Text = "Read";
             this.readBtn.UseVisualStyleBackColor = true;
@@ -120,19 +130,31 @@ namespace CSharpNotes
             // 
             // deleteBtn
             // 
-            this.deleteBtn.Location = new System.Drawing.Point(661, 378);
+            this.deleteBtn.Location = new System.Drawing.Point(992, 582);
+            this.deleteBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.deleteBtn.Name = "deleteBtn";
-            this.deleteBtn.Size = new System.Drawing.Size(75, 23);
+            this.deleteBtn.Size = new System.Drawing.Size(112, 35);
             this.deleteBtn.TabIndex = 8;
             this.deleteBtn.Text = "Delete";
             this.deleteBtn.UseVisualStyleBackColor = true;
             this.deleteBtn.Click += new System.EventHandler(this.deleteBtn_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(400, 25);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(463, 46);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Jordan\'s C# Note Taker";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.deleteBtn);
             this.Controls.Add(this.readBtn);
             this.Controls.Add(this.saveBtn);
@@ -142,6 +164,7 @@ namespace CSharpNotes
             this.Controls.Add(this.titleText);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -162,6 +185,7 @@ namespace CSharpNotes
         private System.Windows.Forms.Button saveBtn;
         private System.Windows.Forms.Button readBtn;
         private System.Windows.Forms.Button deleteBtn;
+        private System.Windows.Forms.Label label3;
     }
 }
 

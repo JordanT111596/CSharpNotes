@@ -29,6 +29,8 @@ namespace CSharpNotes
 
             dataGridView1.Columns["Messages"].Visible = false;
             dataGridView1.Columns["Title"].Width = 226;
+
+            label3.Font = new Font("Arial", 24, FontStyle.Bold);
         }
 
         private void newBtn_Click(object sender, EventArgs e)
